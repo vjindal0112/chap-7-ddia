@@ -1,0 +1,13 @@
+leader: 
+  host: 'database-1-west.cswuyqouu3xx.us-west-1.rds.amazonaws.com'
+  username: 'postgres'
+  password: 'postgres'
+  port: '5432'
+  database: 'postgres'
+replicas:
+  replica1:
+    host: 'replica01-west.cswuyqouu3xx.us-west-1.rds.amazonaws.com'
+    username: 'postgres'
+    password: 'postgres'
+    port: '5432'
+    database: 'postgres'
